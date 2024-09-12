@@ -1,0 +1,77 @@
+.naver-api-outer-container {
+    display: flex;
+    flex-direction: row; /* 수평 배치 */
+    justify-content: center; /* 가운데 정렬 */
+    align-items: flex-start; /* 위쪽 정렬 */
+    padding: 20px;
+    min-height: 100vh;
+    gap: 20px; /* 요소들 간의 간격 */
+  }
+  
+  .naver-api-container,
+  .naver-signup-form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .naver-api-container h2,
+  .naver-signup-form h1 {
+    margin-bottom: 30px;
+  }
+  
+  .naver-api-item,
+  .naver-signup-item {
+    margin-bottom: 15px;
+  }
+  
+  .naver-api-item label,
+  .naver-signup-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .naver-api-item input,
+  .naver-signup-item input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .naver-api-item img {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .naver-signup-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .naver-signup-button {
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 50%;
+    border: none ;
+    background: #002063;
+    color: #fff;
+    cursor: pointer;
+  }
+  .naver-signup-button:hover {
+    background: #070063;
+    color: white;
+  }
+  
+  .error {
+    color: red;
+  }
+  .valid {
+    color: green;
+  }
+  

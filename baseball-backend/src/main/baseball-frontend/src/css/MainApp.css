@@ -1,0 +1,103 @@
+.mainApp {
+  background-color: white;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+.mainBanner img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendarFrame {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendarMonthNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.calendarMonthNav h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3f72af;
+  margin: 0 10px;
+}
+
+.arrowButton {
+  color: #91bff3;
+  font-size: 35px;
+  transition: color 0.3s ease;
+}
+
+.arrowButton:hover {
+  color: #3f72af;
+  cursor: pointer;
+}
+
+.gameFrame {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendarTable {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  color: #3f72af;
+  font-weight: bold;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  background-size: cover;
+  width: 80%;
+}
+
+.calendarTable th {
+  color: #3f72af;
+  padding: 15px;
+}
+
+.calendarTable td {
+  font-size: 20px;
+  padding: 15px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.calendarTable td:hover {
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.gameTable {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.gameTable button {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.gameTable button:hover {
+  background-color: #388e3c;
+  cursor: pointer;
+}
